@@ -134,7 +134,7 @@ for wines in wineList:
     df = df.append(dfAdd)
 
 #create a dataframe and put into csv and then extract the final 2 rows from the csv
-DRIVER_PATH        = "/Users/rchuy/OneDrive/Desktop/BCIT/COMP2454 Python/Dataset/"
+DRIVER_PATH        = "/Users/rchuy/OneDrive/Desktop/Dataset/"
 CSV_FILE ='winelist.csv'
 
 dfOut       = pd.DataFrame( data = df)
